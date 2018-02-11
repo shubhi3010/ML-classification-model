@@ -1,3 +1,5 @@
+'''Here we are using 10 fold cross validation with varing value of k nearest neighbors in knn and anaylsing them through graph'''
+
 from sklearn.datasets import load_iris  #load iris is a func
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.cross_validation import cross_val_score
